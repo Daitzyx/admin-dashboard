@@ -20,7 +20,7 @@ import PieChartOutlineOutlinedIcon from '@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from '@mui/icons-material/TimelineOutlined'
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined'
 
-import photo from '../../assets/i.jpeg'
+import profile from '../../assets/profile.png'
 
 type ItemsProps = {
   title: string
@@ -109,7 +109,7 @@ export const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={photo}
+                  src={profile}
                   style={{ cursor: 'pointer', borderRadius: '50%' }}
                 />
               </Box>
